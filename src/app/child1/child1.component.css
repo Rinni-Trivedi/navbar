@@ -1,0 +1,222 @@
+input.ng-invalid{border-left: 5px solid red}
+input.ng-valid{
+    border-left: 5px solid green;
+}
+
+.navbar {
+
+    background: #000;
+}
+.nav-link {
+    color: #fff;
+}
+.fixed-top {
+    position: initial;
+}
+.d-flex {
+    display: -ms-flexbox !important;
+    display: flex !important;
+}
+.container {
+  max-height: 55px;
+}
+a:not([href]):not([tabindex]):hover {
+    color: white;
+}
+.header {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+}
+.form-control[_ngcontent-c1] {
+    border-radius: 25px;
+    border: none;
+}
+.header-brand {
+    color: inherit;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    white-space: nowrap;
+    font-weight: 600;
+    padding: 0;
+    transition: .3s opacity;
+    line-height: 2.9rem;
+}
+.header-brand-img {
+    height: 2.5rem;
+    line-height: 2rem;
+    vertical-align: bottom;
+    margin-right: .5rem;
+    width: auto;
+}
+.header-brand > img {
+    max-width: 100%;
+}
+.page-main{
+  /*background-image: linear-gradient(to left,#9853af,#623AA2);*/
+  background-image: linear-gradient(to left,#23a393,#20716a);
+}
+.input-icon {
+    position: relative;
+}
+.input-icon-addon {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 2.5rem;
+    pointer-events: none;
+    color: #fff;
+}
+.fa-search:before{
+  color: white;
+  font-size: 15px;
+}
+.forborder{
+  background: rgba(225,225,225,0.08);
+    border: 1px solid rgba(225,225,225,0.1);
+    border-radius: 20px;
+    color: #fff;
+    padding: 0.35rem 0.75rem;
+    width: 100%;
+}
+form > input{
+    background-color: rgba(86, 24, 24, 0.08);
+    color: white;
+}
+.form-control {
+  border: none;
+}
+.form-control::placeholder {
+  color: #947cb4;
+}
+.nav-link.icon {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    position: relative;
+    color: white;
+}
+.dropdown > .nav-link {
+    /*display: block;*/
+    padding: 1rem 1rem;
+}
+.chaticonsize > img {
+  max-width: 4%;
+}
+
+ /*css for badge*/
+.nav-unread {
+    position: absolute;
+    top: .9rem;
+    right: .9rem;
+    width:0.5rem;
+    height:0.5rem;
+    border-radius:50%;
+}
+.bg-warning {
+    background: linear-gradient(to bottom right, #f1d313 0%, #FBB034 100%) !important;
+}
+.header .nav-link .badge, .header .nav-item .badge {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    padding: .2rem .25rem;
+    min-width: 1rem;
+    font-size: 13px;
+}
+.badge:empty {
+    display: block;
+}
+.chaticonbadge > span {
+  width: 0.5rem;
+    height: 1.2rem;
+}
+
+/*css for user profile pic*/
+
+.avatar-sm {
+    width: 1.5rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    font-size: .75rem;
+}
+.brround {
+    border-radius: 50%;
+}
+.avatar {
+    /*width: 2rem;
+    height: 2rem;
+    line-height: 2rem;*/
+    display: inline-block;
+    /*background: #ff7088 no-repeat center/cover;*/
+    position: relative;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    vertical-align: bottom;
+    /*font-size: .875rem;*/
+    /*-webkit-user-select: none;*/
+    /*-moz-user-select: none;
+    -ms-user-select: none;*/
+    user-select: none;
+}
+.cover-image {
+    background-size: cover !important;
+}
+
+/*css for navbar Start*/
+
+.admin-navbar > .container > nav {
+    padding: 0;
+    margin: 0;
+    background:#246761 ;
+    border-radius: 5px;
+}
+.dashboard {
+  color: white;
+}
+.font{
+  color: white;
+}
+@media only screen and (max-width: 800px) {
+ .mobilescreen {
+    display: block;
+ }
+ .laptopscreen {
+   display: none;
+ }
+ .mobilescreen > .admin-navbar > nav {
+   height: 165%;
+ }
+ .avatar-sm[_ngcontent-c1] {
+    width: 2rem;
+    height: 2rem;
+ }
+ .menubutton > .btn-primary {
+    background-color: transparent;
+    border-color: transparent;
+ }
+ .menubutton > .dropdown-menu {
+   top: 112%;
+   min-width: 331px;
+   margin: 2px -292px 57px;
+   background-color: #3a6560;
+ }
+ .isize > li > a > i {
+   width: 15px;
+ }
+ .isize > li > a {
+   margin: 15px 5px;
+ }
+}
+@media only screen and (min-width: 800px) {
+ .mobilescreen {
+    display: none;
+ }
+ .laptopscreen {
+   display: block;
+ }
+}
